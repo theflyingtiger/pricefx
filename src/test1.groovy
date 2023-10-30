@@ -5,3 +5,5 @@ def ftpUrl = 'ftp://ftp.example.com/'
 
 assert httpUrl ==~ regex
 assert ! (ftpUrl ==~ regex)
+
+//
